@@ -31,7 +31,14 @@ body {
 .carousel-thing {
 	font-size: 3vw;
 }
-
+#carousel .carousel-caption {
+    color: white;
+    text-align: center;
+    max-width: 85%;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
 figure {
 	width: 300px;
 }
